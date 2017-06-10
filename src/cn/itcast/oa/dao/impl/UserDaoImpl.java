@@ -9,6 +9,9 @@ import cn.itcast.oa.domain.User;
 @Repository
 public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
 
+	public void sayChanged(){
+	System.out.println("here has been changed!!!");
+	}
 	// public UserDaoImpl(){
 	// clazz = User.class;
 	// }

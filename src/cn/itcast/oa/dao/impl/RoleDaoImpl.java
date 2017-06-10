@@ -12,4 +12,6 @@ public class RoleDaoImpl extends BaseDaoImpl<Role> implements RoleDao {
 	// public RoleDaoImpl(){
 	// clazz = Role.class;
 	// }
+	
+	
 }
